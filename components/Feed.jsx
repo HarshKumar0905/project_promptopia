@@ -56,13 +56,14 @@ const Feed = () => {
     setOptionF("tag");
   }
 
-  useEffect(() => {
+  useEffect( () => {
     const fetchPosts = async () => {
       const response = await fetch("/api/prompt");
       const data = await response.json();
       setPosts(data);
       setMockPosts(data);
     }
+    
     fetchPosts();
   }, []);
 
