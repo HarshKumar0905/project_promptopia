@@ -7,7 +7,7 @@ const Home = () => {
             Discover & Share
             <br className="max-md:hidden"/>
             <span className="orange_gradient text-center">
-                AI-Powered Prompts
+              {` `}AI-Powered Prompts
             </span>
             <p className="desc text-center">
                 Prompotia is an open-source AI prompting tool for modern
